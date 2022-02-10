@@ -1,0 +1,59 @@
+## Folder
+C:\Users\erick\OneDrive\Documentos\Microsoft\GitHub\LaunchX\Entorno
+
+C:\Users\erick\OneDrive\Documentos\Microsoft\GitHub\LaunchX\Entorno>python3 -m venv env
+
+C:\Users\erick\OneDrive\Documentos\Microsoft\GitHub\LaunchX\Entorno>env\Scripts\activate
+(env) (env) 
+
+C:\Users\erick\OneDrive\Documentos\Microsoft\GitHub\LaunchX\Entorno>pip install python-dateutil
+Collecting python-dateutil
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil
+Successfully installed python-dateutil-2.8.2 six-1.16.0
+
+(env) C:\Users\erick\OneDrive\Documentos\Microsoft\GitHub\LaunchX\Entorno>pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+
+(env) C:\Users\erick\OneDrive\Documentos\Microsoft\GitHub\LaunchX\Entorno>env\src\app.py
+2022-02-09 15:46:27.946989
+2022-03-16 10:46:27.946989
+
+(env) C:\Users\erick\OneDrive\Documentos\Microsoft\GitHub\LaunchX\Entorno>pip install pipdate
+Collecting pipdate
+  Downloading pipdate-0.5.5-py3-none-any.whl (18 kB)
+Collecting requests
+  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+     ---------------------------------------- 63.1/63.1 KB 1.1 MB/s eta 0:00:00
+Collecting rich
+  Downloading rich-11.2.0-py3-none-any.whl (217 kB)
+     ---------------------------------------- 217.3/217.3 KB 1.7 MB/s eta 0:00:00
+Requirement already satisfied: setuptools in c:\users\erick\onedrive\documentos\microsoft\github\launchx\entorno\env\lib\site-packages (from pipdate) (58.1.0)
+Collecting appdirs
+  Downloading appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.11-py3-none-any.whl (39 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.8-py2.py3-none-any.whl (138 kB)
+     ---------------------------------------- 138.7/138.7 KB 1.6 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+     ---------------------------------------- 149.2/149.2 KB 1.8 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.3-py3-none-any.whl (61 kB)
+     ---------------------------------------- 61.2/61.2 KB ? eta 0:00:00
+Collecting colorama<0.5.0,>=0.4.0
+  Using cached colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting commonmark<0.10.0,>=0.9.0
+  Downloading commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
+     ---------------------------------------- 51.1/51.1 KB 2.6 MB/s eta 0:00:00
+Collecting pygments<3.0.0,>=2.6.0
+  Using cached Pygments-2.11.2-py3-none-any.whl (1.1 MB)
+Installing collected packages: commonmark, certifi, appdirs, urllib3, pygments, idna, colorama, charset-normalizer, rich, requests, pipdate
+Successfully installed appdirs-1.4.4 certifi-2021.10.8 charset-normalizer-2.0.11 colorama-0.4.4 commonmark-0.9.1 idna-3.3 pipdate-0.5.5 pygments-2.11.2 requests-2.27.1 rich-11.2.0 urllib3-1.26.8
+
+(env) C:\Users\erick\OneDrive\Documentos\Microsoft\GitHub\LaunchX\Entorno>env\Scripts\deactivate.bat
+C:\Users\erick\OneDrive\Documentos\Microsoft\GitHub\LaunchX\Entorno>
